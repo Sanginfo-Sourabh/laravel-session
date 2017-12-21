@@ -18,10 +18,10 @@
   });
 
 # test.blade.php
-  <form class="login-form" role="form" method="post" action="/api/login/update" id="loginForm">
+  form class="login-form" role="form" method="post" action="/api/login/update" id="loginForm">
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
     <button type="submit"  class="btn green-jungle pull-right user-login" action="/login/update"> Login </button>
-  </form>
+  </form
 
 # default.blade.php
   <span class="username username-hide-on-mobile"> {{ Session::get('my_name') }}</span>
